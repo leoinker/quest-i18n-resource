@@ -12,51 +12,19 @@ export const Instruction = ({params}: {params: Parameters}) => {
         <p>
             Internet connection is required.<br />
         </p>
-
-        <h3 className="title is-5">Web browser</h3>
+        <h3 className="title is-5">Get Symbol Wallet</h3>
         <p>
-            * Below browsers are confirmed on our hand.
+            QUEST core processes occur on the Symbol Blockchain. You will not be able to create Quests, nor participate in the Quests of others without a Symbol account and $XYM balance.
+            <li><a href="https://github.com/symbol/desktop-wallet/releases" target="_blank" rel="noreferrer">Desktop Wallet</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=nem.group.symbol.wallet&hl=en&gl=US" target="_blank" rel="noreferrer">Android</a></li>
+            <li><a href="https://apps.apple.com/us/app/symbol-wallet/id1528741845" target="_blank" rel="noreferrer">Apple</a></li>
         </p>
-
-        <h4 className="title is-6">On desktop</h4>
-        <ul>
-            <li>Google Chrome 91.0.4472.124</li>
-            <li>Microsoft Edge 91.0.864.59</li>
-            <li>Firefox 89.0.2</li>
-        </ul>
-
-        <h4 className="title is-6">On Android</h4>
-        <ul>
-            <li>Google Chrome 91.0.4472.120</li>
-            <li>Microsoft Edge 46.05.4.5158</li>
-            <li>Firefox Daylight 89.1.1 (Build #2015812947)</li>
-        </ul>
-
-        <h4 className="title is-6">On iOS</h4>
-        <ul>
-            <li>Safari 604.1</li>
-            <li>Google Chrome 91.0.4472.80</li>
-            <li>Firefox Daylight 34.2 (5301)</li>
-            <li>Microsoft Edge 46.3.23</li>
-        </ul>
-
-        <h3 className="title is-5">Symbol Desktop Wallet or Mobile Wallet</h3>
         <p>
-            To manage account or receive XYM by quests, you should install
-            Symbol <a href="https://docs.symbolplatform.com/wallets.html" target="_blank" rel="noreferrer">Desktop Wallet</a> or
-            Mobile Wallet (
-            <a href="https://play.google.com/store/apps/details?id=nem.group.symbol.wallet&hl=en&gl=US" target="_blank" rel="noreferrer">
-                for Android
-            </a> / <a href="https://apps.apple.com/us/app/symbol-wallet/id1528741845" target="_blank" rel="noreferrer">
-                for iOS
-            </a>)
+            View <a href="https://coinmarketcap.com/currencies/symbol/markets/" target="_blank" rel="noreferrer">Coinmarketcap</a> for a list of exchanges where you can purchase $XYM.
         </p>
-
-        <h2 className="title is-4 mt-6">2. Signup and link existing or create new Symbol account.</h2>
+        <h2 className="title is-4 mt-6">2. Create Account on QUEST</h2>
         <p>
-            Signup will be done just few step with e-mail and password.<br />
-            After signed up, you need to link existing Symbol account (if you already have one) or generate new one.
-            That account will be used both of payment and receive XYM.
+        Now that you have a Symbol wallet with a $XYM balance, it’s time to complete your account on QUEST. Signup can be completed by entering your email address and setting a password.
         </p>
         <p>
             To link account, you can choose one of 3 methods.
