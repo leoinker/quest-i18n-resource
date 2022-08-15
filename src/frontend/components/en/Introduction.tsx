@@ -81,8 +81,7 @@ So, prepare your propaganda wisely and learn to recognize a good trick. Execute 
                 <div className="column">
                     <blockquote>
                         <p>
-                        QUEST is powered by Symbol:<br />
-Symbol is a layer one blockchain serving the settlement layer for the new economy.<br />
+Symbol is a layer one blockchain serving the settlement layer for the new economy.<br /><br />
 The future of Symbol envisions it as the hub and interchange layer at the center of a universe of bespoke chains without global scalability constraints.
                         </p>
                         <p className="has-text-right">
@@ -106,14 +105,14 @@ By using Symbol as the core engine, we are able to rapidly develop and minimize 
 
         <div className="columns my-6">
             <div className="column is-three-fifths is-offset-one-fifth">
-                <h3 className="title is-5">Where can I get Symbol native currency ‘XYM’ ?</h3>
+                <h3 className="title is-5">Where can I get XYM?</h3>
                 { params.networkType === '152' ? <div className="notification">
                     This is a TEST SITE connected to the Testnet.
                     You can grab XYM for Testnet from the <a href="https://testnet.symbol.tools/" target="_blank" rel="noreferrer">Faucet</a>.
                 </div> : <p>
-                    You can buy XYM from exchanges such as <a href="https://zaif.jp/" target="_blank" rel="noreferrer">Zaif</a>
-                    , <a href="https://gate.io" target="_blank" rel="noreferrer">Gate.io</a>.
-                    Complete list is <a href="https://symbolplatform.com/xym" target="_blank" rel="noreferrer">here</a>.
+                    XYM is available on many exchanges such as <a href="https://bittrex.com/Market/Index?MarketName=BTC-XYM" target="_blank" rel="noreferrer">Bittrex</a>
+                    , <a href="https://www.kucoin.com/trade/XYM-USDT" target="_blank" rel="noreferrer">Kucoin</a>
+                    , and many more as shown on<a href="https://coinmarketcap.com/currencies/symbol/markets/" target="_blank" rel="noreferrer">Coinmarketcap</a>.
                 </p> }
             </div>
         </div>
