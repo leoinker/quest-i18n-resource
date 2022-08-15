@@ -12,7 +12,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
             All you need to get started is an internet connection, compatible browser, and a Symbol wallet.<br />
             <i>If you experience any bugs while using the site, try switching to a different browser such as Google Chrome or Mozilla Firefox.</i>
         </p>
-        <h2 className="title is-4 mt-6">1. Get Symbol Wallet</h3>
+        <h2 className="title is-4 mt-6">1. Get Symbol Wallet</h2>
         <p>
             QUEST is built on the Symbol Blockchain. $XYM is the native currency of Symbol, and is also the native currency on QUEST. You will not be able to create Quests, nor participate in the Quests of others without a Symbol account and $XYM balance.
             </p>
