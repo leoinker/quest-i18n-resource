@@ -40,6 +40,8 @@ export const Introduction = ({params}: {params: Parameters}) => {
             <p>
             Once you have identified your goal and have a plan to achieve it, it’s time to rally the community to support you! With a war chest of $XYM, and the strength of the community behind you, you will overcome all struggles, achieving your mission and accomplishing the Quest! 
             </p>
+            <div className="columns my-6">
+            <div className="column is-three-fifths is-offset-one-fifth">
             <h3 className="title is-5">How am I protected?</h3>
             <p>
             If accomplices are not satisfied with your progress and commitment, and you fail to accomplish the Quest, the bounty is returned to the would-be accomplices.
@@ -68,6 +70,7 @@ As any learned citizen will have you know, there is no better meal for a Starsna
 So, prepare your propaganda wisely and learn to recognize a good trick. Execute your Quests faithful, lest your plot twists.
 </blockquote>
             </p>
+            </div>
     </div>
         <div className="my-6">
             <h3 className="title is-5">QUEST uses Symbol block chain</h3>
