@@ -52,8 +52,6 @@ export const Introduction = ({params}: {params: Parameters}) => {
 What are you waiting for? Sharpen your hooks, pen your plot, and compel your mates to lend an ear and perhaps some coin, too!
                 </p>
                 <hr />
-            <div className="columns my-6">
-            <div className="column is-four-fifths is-offset-one-fifth">
             <h3 className="title is-5">Definitions:</h3>
             <p>
             <b>Flatlander:</b> One who has not yet formed a Quest. Neither have they been an accomplice on a Quest arranged by another.<br />
@@ -72,6 +70,9 @@ As any learned citizen will have you know, there is no better meal for a Starsna
 So, prepare your propaganda wisely and learn to recognize a good trick. Execute your Quests faithful, lest your plot twists.
 </blockquote>
             </p>
+            <div className="columns my-6">
+            <div className="column is-three-fifths is-offset-one-fifth">
+                <p>...now to learn a litte more about Symbol.</p>
             </div>
     </div>
         <div className="my-6">
