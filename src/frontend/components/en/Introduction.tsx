@@ -29,21 +29,25 @@ export const Introduction = ({params}: {params: Parameters}) => {
                 QUEST is perfect for anyone that has already completed a project or goal, or is organizing a new one. We call these missions “Quests”
             </p>
             <p>
-                Projects, goals, missions are detailed in the “Quest” the user is creating. Other participants on the platform can review the information provided and decide whether to support your Quest, or not.
+            <blockquote>Projects, goals, missions are detailed in the “Quest” the user is creating. Other participants on the platform can review the information provided and decide whether to support your Quest, or not.
                 Likewise, you can view the Quests of others and pledge as little or as much support as you’d like!
                 Anyone can create a Quest!
+                </p><p>
                 Some Quest ideas: Build a dApp, write a blog post, translate material, organize a hackathon, contribute on github: https://github.com/symbol
+                </blockquote>
             </p>
             <p>
             Once you have identified your goal and have a plan to achieve it, it’s time to rally the community to support you! With a war chest of $XYM, and the strength of the community behind you, you will overcome all struggles, achieving your mission and accomplishing the Quest! 
             </p>
             <div className="columns my-6">
             <div className="column is-three-fifths is-offset-one-fifth">
-            <h3 className="title is-5">How am I protected?:</h3>
-<p>
-If supporters are not satisfied with your progress and commitment, and you fail to accomplish the Quest, the vault contents are returned to the supporters.
-This ability is what makes Quest unique! With Symbol as the core engine, QUEST enables participants to support each other with minimal fees, and without needing to trust a 3rd party custodian.
-QUEST core features and processes are on-chain and automated, creating a secure and convenient user experience.
+            <h3 className="title is-5">How am I protected?:</3>
+            <p>
+            If accomplices are not satisfied with your progress and commitment, and you fail to accomplish the Quest, the bounty is returned to the would-be accomplices.
+            
+            <blockquote>This protection makes QUEST unique! With Symbol as the core engine, QUEST enables people to support each other with minimal fees, and without needing to trust a 3rd party custodian.
+                QUEST core features and processes are on-chain and automated, creating a secure and convenient user experience.
+            </blockquote>
 </p><p>
 What are you waiting for? Sharpen your hooks, pen your plot, and compel your mates to lend an ear and perhaps some coin, too!
                 </p>
