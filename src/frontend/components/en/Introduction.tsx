@@ -77,7 +77,6 @@ These elite Venturers reduce invading bugs to ashes and code new life with the e
 </blockquote>
 As any learned citizen will have you know, there is no better meal for a Starsnake than a lone Venturer. Without accomplices, plunder becomes blunder. Quests fail, and ‘tis a tizzy of a death. 
 So, prepare your propaganda wisely and learn to recognize a good trick. Execute your Quests faithful, lest your plot twists.
-</p>
             </p>
             <div className="columns my-6">
             <div className="column is-three-fifths is-offset-one-fifth">
