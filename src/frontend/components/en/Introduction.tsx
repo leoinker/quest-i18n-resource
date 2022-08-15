@@ -24,12 +24,12 @@ export const Introduction = ({params}: {params: Parameters}) => {
             </div>
         </> : null }
             <h3 className="title is-5">How QUEST Works:</h3>
-           <p>
-                Users with fundraising goals use QUEST to show their work and attract supporters.<br />
-                QUEST is perfect for anyone that has already completed a project or goal, or is organizing a new one. We call these missions “Quests”
-            </p>
             <p>
+            Users with fundraising goals use QUEST to show their work and attract supporters.<br />
+            QUEST is perfect for anyone that has already completed a project or goal, or is organizing a new one. We call these missions “Quests”
+            </p>
             <blockquote>
+                <p>
                 Projects, goals, missions are detailed in the “Quest” the user is creating. Other participants on the platform can review the information provided and decide whether to support your Quest, or not.
                 Likewise, you can view the Quests of others and pledge as little or as much support as you’d like!
                 Anyone can create a Quest!
