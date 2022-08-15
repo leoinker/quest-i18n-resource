@@ -29,13 +29,15 @@ export const Introduction = ({params}: {params: Parameters}) => {
                 QUEST is perfect for anyone that has already completed a project or goal, or is organizing a new one. We call these missions “Quests”
             </p>
             <p>
-            <blockquote>Projects, goals, missions are detailed in the “Quest” the user is creating. Other participants on the platform can review the information provided and decide whether to support your Quest, or not.
+            <blockquote>
+                Projects, goals, missions are detailed in the “Quest” the user is creating. Other participants on the platform can review the information provided and decide whether to support your Quest, or not.
                 Likewise, you can view the Quests of others and pledge as little or as much support as you’d like!
                 Anyone can create a Quest!
-                </p><p>
+                </p>
+                <p>
                 Some Quest ideas: Build a dApp, write a blog post, translate material, organize a hackathon, contribute on github: https://github.com/symbol
+                </p>
                 </blockquote>
-            </p>
             <p>
             Once you have identified your goal and have a plan to achieve it, it’s time to rally the community to support you! With a war chest of $XYM, and the strength of the community behind you, you will overcome all struggles, achieving your mission and accomplishing the Quest! 
             </p>
