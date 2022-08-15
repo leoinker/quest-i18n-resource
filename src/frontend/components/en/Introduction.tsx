@@ -23,7 +23,6 @@ export const Introduction = ({params}: {params: Parameters}) => {
                 <Link to="/dashboard" className="button is-text">or Sign In</Link>
             </div>
         </> : null }
-        <div className="my-6">
             <h3 className="title is-5">How QUEST Works:</h3>
             <p>
             Anyone with a fundraising goal can use QUEST to demonstrate their abilities and attract <s>supporters</s>, accomplices.<br />
@@ -69,7 +68,6 @@ As any learned citizen will have you know, there is no better meal for a Starsna
 So, prepare your propaganda wisely and learn to recognize a good trick. Execute your Quests faithful, lest your plot twists.
 </blockquote>
             </p>
-            </div>
     </div>
         <div className="my-6">
             <h3 className="title is-5">QUEST uses Symbol block chain</h3>
