@@ -5,10 +5,10 @@ import {Parameters} from "../parameters";
 
 export const Introduction = ({params}: {params: Parameters}) => {
     return <div className="content">
-        <h1 className="title is-3">A Gamified Bounty Hunt Platform for Everyone</h1>
+        <h1 className="title is-3">Bounty Hunting is for Everyone</h1>
         <p>
-            QUEST is a bounty hunt platform. <br />
-            The place for community to help each other achieve their <s>goals</s> Quests!
+            QUEST is a <s>fundraising</s> bounty hunt platform. <br />
+            By bridging a friendly user interface with blockchain, QUEST enables a secure environment for people worldwide to help each other achieve their <s>goals</s> Quests!
         </p>
         <div className="block my-6">
             <figure className="image osi-quest-figure">
@@ -25,14 +25,13 @@ export const Introduction = ({params}: {params: Parameters}) => {
         </> : null }
             <h3 className="title is-5">How QUEST Works:</h3>
             <p>
-            Users with fundraising goals use QUEST to show their work and attract supporters.<br />
+            Anyone with a fundraising goal can use QUEST to demonstrate their abilities and attract <s>supporters</s>, accomplices.<br />
             QUEST is perfect for anyone that has already completed a project or goal, or is organizing a new one. We call these missions “Quests”
             </p>
             <blockquote>
                 <p>
-                Projects, goals, missions are detailed in the “Quest” the user is creating. Other participants on the platform can review the information provided and decide whether to support your Quest, or not.
-                Likewise, you can view the Quests of others and pledge as little or as much support as you’d like!
-                Anyone can create a Quest!
+                Projects, goals, missions are detailed in the “Quest” the Bounty Hunter has created. Potential accomplices review the information provided in the Quest and decide whether the Quest is worth supporting, or not.
+                Likewise,  can view the Quests of others and pledge as little or as much support as you’d like!
                 </p>
                 <p>
                 Some Quest ideas: Build a dApp, write a blog post, translate material, organize a hackathon, contribute on github: https://github.com/symbol
@@ -41,9 +40,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
             <p>
             Once you have identified your goal and have a plan to achieve it, it’s time to rally the community to support you! With a war chest of $XYM, and the strength of the community behind you, you will overcome all struggles, achieving your mission and accomplishing the Quest! 
             </p>
-            <div className="columns my-6">
-            <div className="column is-three-fifths is-offset-one-fifth">
-            <h3 className="title is-5">How am I protected?:</h3>
+            <h3 className="title is-5">How am I protected?</h3>
             <p>
             If accomplices are not satisfied with your progress and commitment, and you fail to accomplish the Quest, the bounty is returned to the would-be accomplices.
             
@@ -53,9 +50,27 @@ export const Introduction = ({params}: {params: Parameters}) => {
 </p><p>
 What are you waiting for? Sharpen your hooks, pen your plot, and compel your mates to lend an ear and perhaps some coin, too!
                 </p>
+            <h3 className="title is-5">Definitions:</h3>
+            <p>
+            <b>Flatlander:</b> One who has not yet formed a Quest. Neither have they been an accomplice on a Quest arranged by another.<br />
+            <blockquote>
+Upon birth, it typically takes some time before a citizen develops the leg strength to do much adventuring. They first need to overcome the challenges posed by flat surfaces and mild chores, such as harvesting.
+</blockquote>
+<b>Venturer:</b> One that is forming a Quest.
+<blockquote>
+The days of a peaceable and boring life on the flatland are over. Venturers create Quests and connive fellow citizens to support them.
+Venturers often create light Quests, such as writing a bloody blog post or seducing a merchant to accept $XYM, but the most battle-scarred Venturers sail the stellar winds to flatten mountains, destroy the vile enemy, and fill their decks with loot.
+These elite Venturers reduce invading bugs to ashes and code new life with the embers of fire. The gravestones of their adversaries now a galactic cornerstone in what's become the renown XYMCity.
+</blockquote>
+<b>Accomplice:</b> One that conspires to support the Quest of another.
+<blockquote>
+As any learned citizen will have you know, there is no better meal for a Starsnake than a lone Venturer. Without accomplices, plunder becomes blunder. Quests fail, and ‘tis a tizzy of a death. 
+So, prepare your propaganda wisely and learn to recognize a good trick. Execute your Quests faithful, lest your plot twists.
+</blockquote>
+
+            </p>
             </div>
         </div>
-
         <div className="my-6">
             <h3 className="title is-5">QUEST uses Symbol block chain</h3>
             <div className="columns">
