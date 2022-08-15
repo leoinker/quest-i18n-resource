@@ -5,9 +5,10 @@ import {Parameters} from "../parameters";
 
 export const Introduction = ({params}: {params: Parameters}) => {
     return <div className="content">
-        <h1 className="title is-3">Boost epic challenges!</h1>
+        <h1 className="title is-3">Create Quests. Capture Bounty!</h1>
         <p>
-            QUEST is a novel tipping platform for streamers that build on block chain technologies.
+            QUEST is a bounty hunt platform. <br />
+            The place for community to help each other achieve their <strikethrough>goals</strikethrough> Quests!
         </p>
         <div className="block my-6">
             <figure className="image osi-quest-figure">
@@ -16,7 +17,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
         </div>
         { !params.isSignedIn ? <>
             <div className="buttons is-centered are-large mt-6 mb-0">
-                <Link to="/signup" className="button is-primary">Signup Now !</Link>
+                <Link to="/signup" className="button is-primary">Sign Up Now !</Link>
             </div>
             <div className="buttons is-centered mb-6">
                 <Link to="/dashboard" className="button is-text">or Sign In</Link>
@@ -24,16 +25,25 @@ export const Introduction = ({params}: {params: Parameters}) => {
         </> : null }
         <div className="columns my-6">
             <div className="column is-three-fifths is-offset-one-fifth">
-                <h3 className="title is-5">What's QUEST?</h3>
-                <p>
-                    What’s you are aimed on your stream? What would you like to achieve?
-                </p>
-                <p>
-                    “The quest” is an achievement you are aiming on the stream.<br/>
-                    Viewers who expecting your struggle journey and successful finale boosts vault of the quest by donation.<br/>
-                    After you accomplish the quest, you’ll acquire the vault contents. If you don't make it... it'll be refunded to the viewer who donated.<br/>
-                    But who judge the quest was succeeded or failed? It’s viewer’s vote.<br/>
-                    QUEST main features are full automatic and safe processing that realized by block chain technologies.
+                <h3 className="title is-5">How QUEST Works:</h3>
+           <p>
+                Users with fundraising goals use QUEST to show their work and attract supporters.<br />
+                QUEST is perfect for anyone that has already completed a project or goal, or is organizing a new one. We call these missions “Quests”
+            </p>
+            <p>
+                Projects, goals, missions are detailed in the “Quest” the user is creating. Other participants on the platform can review the information provided and decide whether to support your Quest, or not.
+                Likewise, you can view the Quests of others and pledge as little or as much support as you’d like!
+                Anyone can create a Quest!
+                Some Quest ideas: Build a dApp, write a blog post, translate material, organize a hackathon, contribute on github: https://github.com/symbol
+            </p>
+            <p>
+Once you have identified your goal and have a plan to achieve it, it’s time to rally the community to support you! With a war chest of $XYM, and the strength of the community behind you, you will overcome all struggles, achieving your mission and accomplishing the Quest! 
+</p><p>
+If supporters are not satisfied with your progress and commitment, and you fail to accomplish the Quest, the vault contents are returned to the supporters.
+This ability is what makes Quest unique! With Symbol as the core engine, QUEST enables participants to support each other with minimal fees, and without needing to trust a 3rd party custodian.
+QUEST core features and processes are on-chain and automated, creating a secure and convenient user experience.
+</p><p>
+What are you waiting for? Sharpen your hooks, pen your plot, and compel your mates to lend an ear and perhaps some coin, too!
                 </p>
             </div>
         </div>

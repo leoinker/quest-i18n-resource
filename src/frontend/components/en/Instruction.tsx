@@ -34,8 +34,8 @@ export const Instruction = ({params}: {params: Parameters}) => {
         After you have activated your QUEST account, you need to link your Symbol account. Alternatively you can create a new one. The account you link with QUEST will be used to both send and receive $XYM bounties.
         </p>
         <h4>To link your account, choose one of the 3 methods.</h4>
-        <p><blockquote>
-        <ol>
+        <p>
+        <ol><blockquote>
             <li>
                 Input public key and transfer <code>0 XYM</code> + activation code <br />
                 This method is recommend, as it is most secure, however it will incure a small network fee.
@@ -47,12 +47,14 @@ export const Instruction = ({params}: {params: Parameters}) => {
             <li>
                 Generate new one.<br />
                 If you do not already have a Symbol account, you may create one on QUEST without any cost.
-            </li>
-        </ol></blockquote>
+            </li></blockquote>
+        </ol>
         </p>
         <p>
-        Once you have successfully linked your Symbol account, complete your profile.<br />
-        With a unique avatar and bio, you are now a recognizable flatlander. It’s time to create a Quest and get some sea under your legs! There's bounty to capture!
+        Once you have successfully linked your Symbol account, complete your profile by adding a picture and telling us more about you.
+        </p><p>
+        With a unique avatar and bio, you are now a recognizable flatlander.<br />
+        It’s time to create a Quest and get some sea under your legs! <i>There is bounty to capture!</i>
         </p>
 
         <h2 className="title is-4 mt-6">3. For performer: Create new quest and perform it.</h2>
