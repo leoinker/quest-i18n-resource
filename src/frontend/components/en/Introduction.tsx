@@ -43,7 +43,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
             </p>
             <div className="columns my-6">
             <div className="column is-three-fifths is-offset-one-fifth">
-            <h3 className="title is-5">How am I protected?:</3>
+            <h3 className="title is-5">How am I protected?:</h3>
             <p>
             If accomplices are not satisfied with your progress and commitment, and you fail to accomplish the Quest, the bounty is returned to the would-be accomplices.
             
