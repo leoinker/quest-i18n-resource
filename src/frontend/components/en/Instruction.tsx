@@ -10,12 +10,14 @@ export const Instruction = ({params}: {params: Parameters}) => {
 
         <p>
             All you need to get started is an internet connection, compatible browser, and a Symbol wallet.<br />
-            If you experience any bugs while using the site, try switching to a different browser such as Google Chrome or Mozilla Firefox.
+            <i>If you experience any bugs while using the site, try switching to a different browser such as Google Chrome or Mozilla Firefox.</i>
         </p>
-        <h3 className="title is-5">1. Get Symbol Wallet</h3>
+        <h2 className="title is-4 mt-6">1. Get Symbol Wallet</h3>
         <p>
             QUEST is built on the Symbol Blockchain. $XYM is the native currency of Symbol, and is also the native currency on QUEST. You will not be able to create Quests, nor participate in the Quests of others without a Symbol account and $XYM balance.
-            <br /> To create a Symbol account, you first need the Symbol wallet. 
+            </p>
+            <p>
+            To create a Symbol account, you first need to download and install the Symbol wallet. 
             <li><a href="https://github.com/symbol/desktop-wallet/releases" target="_blank" rel="noreferrer">Symbol Desktop Wallet</a></li>
             <li><a href="https://play.google.com/store/apps/details?id=nem.group.symbol.wallet&hl=en&gl=US" target="_blank" rel="noreferrer">Symbol Android Wallet</a></li>
             <li><a href="https://apps.apple.com/us/app/symbol-wallet/id1528741845" target="_blank" rel="noreferrer">Symbol Apple Wallet</a></li>
@@ -27,23 +29,30 @@ export const Instruction = ({params}: {params: Parameters}) => {
         <p>
         Now that you have a Symbol wallet and a $XYM balance, it’s time to complete your account on QUEST. Registration is finalized once you have entered your email address and have set a password.
         </p>
+        <h2 className="title is-4 mt-6">3. Link your Symbol account with QUEST</h2>
         <p>
-        To link account, you can choose one of 3 methods.
+        After you have activated your QUEST account, you need to link your Symbol account. Alternatively you can create a new one. The account you link with QUEST will be used to both send and receive $XYM bounties.
         </p>
+        <h4>To link your account, choose one of the 3 methods.</h4>
+        <p>
         <ol>
             <li>
-                Input public key and transfer <code>0 XYM</code> + activation code (Most secure but require small
-                transaction cost)
+                Input public key and transfer <code>0 XYM</code> + activation code <br />
+                This method is recommend, as it is most secure, however it will incure a small network fee.
             </li>
             <li>
-                Input private key (The key will be encrypted and stored into browser storage only. No transaction cost)
+                Input private key<br />
+                The key will be encrypted and stored into browser storage only. There are no transaction costs when using this method, but it is not recommended for anyone on a public network or with larger balances.
             </li>
             <li>
-                Generate new one (No transaction cost. Assets transfers needed to payment)
+                Generate new one.<br />
+                If you do not already have a Symbol account, you may create one on QUEST without any cost.
             </li>
         </ol>
+        </p>
         <p>
-            Finally, input your profile then ready to use QUEST.
+        Once you have successfully linked your Symbol account, complete your profile.<br />
+        With a unique avatar and bio, you are now a recognizable flatlander. It’s time to create a Quest and get some sea under your legs! There's bounty to capture!
         </p>
 
         <h2 className="title is-4 mt-6">3. For performer: Create new quest and perform it.</h2>
