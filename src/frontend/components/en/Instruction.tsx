@@ -8,26 +8,27 @@ export const Instruction = ({params}: {params: Parameters}) => {
     return <div className="content">
         <h1 className="title is-3">How to use QUEST</h1>
 
-        <h2 className="title is-4" id="environment">1. System requirements</h2>
         <p>
-            Internet connection is required.<br />
+            All you need to get started is an internet connection, compatible browser, and a Symbol wallet.<br />
+            If you experience any bugs while using the site, try switching to a different browser such as Google Chrome or Mozilla Firefox.
         </p>
-        <h3 className="title is-5">Get Symbol Wallet</h3>
+        <h3 className="title is-5">1. Get Symbol Wallet</h3>
         <p>
-            QUEST core processes occur on the Symbol Blockchain. You will not be able to create Quests, nor participate in the Quests of others without a Symbol account and $XYM balance.
-            <li><a href="https://github.com/symbol/desktop-wallet/releases" target="_blank" rel="noreferrer">Desktop Wallet</a></li>
-            <li><a href="https://play.google.com/store/apps/details?id=nem.group.symbol.wallet&hl=en&gl=US" target="_blank" rel="noreferrer">Android</a></li>
-            <li><a href="https://apps.apple.com/us/app/symbol-wallet/id1528741845" target="_blank" rel="noreferrer">Apple</a></li>
+            QUEST is built on the Symbol Blockchain. $XYM is the native currency of Symbol, and is also the native currency on QUEST. You will not be able to create Quests, nor participate in the Quests of others without a Symbol account and $XYM balance.
+            <br /> To create a Symbol account, you first need the Symbol wallet. 
+            <li><a href="https://github.com/symbol/desktop-wallet/releases" target="_blank" rel="noreferrer">Symbol Desktop Wallet</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=nem.group.symbol.wallet&hl=en&gl=US" target="_blank" rel="noreferrer">Symbol Android Wallet</a></li>
+            <li><a href="https://apps.apple.com/us/app/symbol-wallet/id1528741845" target="_blank" rel="noreferrer">Symbol Apple Wallet</a></li>
         </p>
         <p>
-            View <a href="https://coinmarketcap.com/currencies/symbol/markets/" target="_blank" rel="noreferrer">Coinmarketcap</a> for a list of exchanges where you can purchase $XYM.
+            Once you have downloaded the Symbol wallet and have created an account, make sure to back up your private key, then you are ready to get some XYM! You can see list of exchanges on <a href="https://coinmarketcap.com/currencies/symbol/markets/" target="_blank" rel="noreferrer">Coinmarketcap</a>.
         </p>
         <h2 className="title is-4 mt-6">2. Create Account on QUEST</h2>
         <p>
-        Now that you have a Symbol wallet with a $XYM balance, it’s time to complete your account on QUEST. Signup can be completed by entering your email address and setting a password.
+        Now that you have a Symbol wallet and a $XYM balance, it’s time to complete your account on QUEST. Registration is finalized once you have entered your email address and have set a password.
         </p>
         <p>
-            To link account, you can choose one of 3 methods.
+        To link account, you can choose one of 3 methods.
         </p>
         <ol>
             <li>
