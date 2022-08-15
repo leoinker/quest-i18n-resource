@@ -67,10 +67,8 @@ These elite Venturers reduce invading bugs to ashes and code new life with the e
 As any learned citizen will have you know, there is no better meal for a Starsnake than a lone Venturer. Without accomplices, plunder becomes blunder. Quests fail, and ‘tis a tizzy of a death. 
 So, prepare your propaganda wisely and learn to recognize a good trick. Execute your Quests faithful, lest your plot twists.
 </blockquote>
-
             </p>
             </div>
-        </div>
         <div className="my-6">
             <h3 className="title is-5">QUEST uses Symbol block chain</h3>
             <div className="columns">
@@ -109,6 +107,5 @@ So, prepare your propaganda wisely and learn to recognize a good trick. Execute 
                     Complete list is <a href="https://symbolplatform.com/xym" target="_blank" rel="noreferrer">here</a>.
                 </p> }
             </div>
-        </div>
-    </div>;
+        </div>;
 }
