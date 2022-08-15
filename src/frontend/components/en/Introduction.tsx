@@ -81,16 +81,19 @@ So, prepare your propaganda wisely and learn to recognize a good trick. Execute 
                 <div className="column">
                     <blockquote>
                         <p>
-                            Symbol is the trusted, secure value exchange network for business. Symbol smooths business friction,
-                            increasing the flow of data and innovation to supercharge the creation, exchange and protection of assets.
+                        QUEST is powered by Symbol:<br />
+Symbol is a layer one blockchain serving the settlement layer for the new economy.<br />
+The future of Symbol envisions it as the hub and interchange layer at the center of a universe of bespoke chains without global scalability constraints.
                         </p>
                         <p className="has-text-right">
-                            <i><a href="https://symbolplatform.com/">Official web site</a></i>
+                            <i><a href="https://docs.symbol.dev/">Official Symbol Documentaion</a></i>
                         </p>
                     </blockquote>
                     <p>
-                        Symbol allowed us rapid developments, secure asset handling, and fine usability.<br />
-                        Also, QUEST uses Symbol’s native currency ‘XYM’ to transact with our users.
+                    Symbol’s native currency, $XYM is used for all transitions on QUEST.
+
+By using Symbol as the core engine, we are able to rapidly develop and minimize cost to users, while still maintaining the security expected of a reputable blockchain.
+
                     </p>
                 </div>
                 <div className="column is-4 p-6">
