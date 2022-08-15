@@ -40,8 +40,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
             <p>
             Once you have identified your goal and have a plan to achieve it, it’s time to rally the community to support you! With a war chest of $XYM, and the strength of the community behind you, you will overcome all struggles, achieving your mission and accomplishing the Quest! 
             </p>
-            <div className="columns my-6">
-            <div className="column is-three-fifths is-offset-one-fifth">
+        
             <h3 className="title is-5">How am I protected?</h3>
             <p>
             If accomplices are not satisfied with your progress and commitment, and you fail to accomplish the Quest, the bounty is returned to the would-be accomplices.
@@ -52,6 +51,8 @@ export const Introduction = ({params}: {params: Parameters}) => {
 </p><p>
 What are you waiting for? Sharpen your hooks, pen your plot, and compel your mates to lend an ear and perhaps some coin, too!
                 </p>
+            <div className="columns my-6">
+            <div className="column is-three-fifths is-offset-one-fifth">
             <h3 className="title is-5">Definitions:</h3>
             <p>
             <b>Flatlander:</b> One who has not yet formed a Quest. Neither have they been an accomplice on a Quest arranged by another.<br />
