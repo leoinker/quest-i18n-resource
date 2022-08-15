@@ -34,7 +34,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
         After you have activated your QUEST account, you need to link your Symbol account. Alternatively you can create a new one. The account you link with QUEST will be used to both send and receive $XYM bounties.
         </p>
         <h4>To link your account, choose one of the 3 methods.</h4>
-        <p>
+        <p><blockquote>
         <ol>
             <li>
                 Input public key and transfer <code>0 XYM</code> + activation code <br />
@@ -48,7 +48,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
                 Generate new one.<br />
                 If you do not already have a Symbol account, you may create one on QUEST without any cost.
             </li>
-        </ol>
+        </ol></blockquote>
         </p>
         <p>
         Once you have successfully linked your Symbol account, complete your profile.<br />
