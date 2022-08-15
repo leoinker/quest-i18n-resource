@@ -51,8 +51,9 @@ export const Introduction = ({params}: {params: Parameters}) => {
 </p><p>
 What are you waiting for? Sharpen your hooks, pen your plot, and compel your mates to lend an ear and perhaps some coin, too!
                 </p>
+                <hr />
             <div className="columns my-6">
-            <div className="column is-three-fifths is-offset-one-fifth">
+            <div className="column is-four-fifths is-offset-one-fifth">
             <h3 className="title is-5">Definitions:</h3>
             <p>
             <b>Flatlander:</b> One who has not yet formed a Quest. Neither have they been an accomplice on a Quest arranged by another.<br />
