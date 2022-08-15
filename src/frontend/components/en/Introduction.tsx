@@ -8,7 +8,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
         <h1 className="title is-3">Create Quests. Capture Bounty!</h1>
         <p>
             QUEST is a bounty hunt platform. <br />
-            The place for community to help each other achieve their <strikethrough>goals</strikethrough> Quests!
+            The place for community to help each other achieve their <s>goals</s> Quests!
         </p>
         <div className="block my-6">
             <figure className="image osi-quest-figure">
