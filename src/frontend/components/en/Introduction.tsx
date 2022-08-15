@@ -31,22 +31,23 @@ export const Introduction = ({params}: {params: Parameters}) => {
             <blockquote>
                 <p>
                 Projects, goals, missions are detailed in the “Quest” the Bounty Hunter has created. Potential accomplices review the information provided in the Quest and decide whether the Quest is worth supporting, or not.
-                Likewise,  can view the Quests of others and pledge as little or as much support as you’d like!
-                </p>
-                <p>
-                Some Quest ideas: Build a dApp, write a blog post, translate material, organize a hackathon, contribute on github: https://github.com/symbol
                 </p>
                 </blockquote>
             <p>
             Once you have identified your goal and have a plan to achieve it, it’s time to rally the community to support you! With a war chest of $XYM, and the strength of the community behind you, you will overcome all struggles, achieving your mission and accomplishing the Quest! 
             </p>
+            <blockquote>
+            <p>
+            Some Quest ideas: Build a dApp, write a blog post, translate material, organize a hackathon, contribute on github: https://github.com/symbol
+            </p>
+            </blockquote>
         <hr />
             <h3 className="title is-5">How am I protected?</h3>
             <p>
-            If accomplices are not satisfied with your progress and commitment, and you fail to accomplish the Quest, the bounty is returned to the would-be accomplices.
+            If accomplices are not satisfied with the progress and commitment of the Venturer, or the Venturer has otherwise failed to complete the Quest, the bounty is returned to the would-be accomplices.
             
             <blockquote>This protection makes QUEST unique! With Symbol as the core engine, QUEST enables people to support each other with minimal fees, and without needing to trust a 3rd party custodian.
-                QUEST core features and processes are on-chain and automated, creating a secure and convenient user experience.
+             QUEST core features and processes are on-chain and automated, creating a secure and convenient user experience.
             </blockquote>
 </p><p>
 What are you waiting for? Sharpen your hooks, pen your plot, and compel your mates to lend an ear and perhaps some coin, too!
@@ -54,21 +55,29 @@ What are you waiting for? Sharpen your hooks, pen your plot, and compel your mat
                 <hr />
             <h3 className="title is-5">Definitions:</h3>
             <p>
-            <b>Flatlander:</b> One who has not yet formed a Quest. Neither have they been an accomplice on a Quest arranged by another.<br />
+            <b>Flatlander:</b>
             <blockquote>
+            One who has not yet formed a Quest. Neither have they been an accomplice on a Quest arranged by another.
+            </blockquote>
 Upon birth, it typically takes some time before a citizen develops the leg strength to do much adventuring. They first need to overcome the challenges posed by flat surfaces and mild chores, such as harvesting.
-</blockquote>
-<b>Venturer:</b> One that is forming a Quest.
+</p>
+<p>
+<b>Venturer:</b>
 <blockquote>
+    The bounty hunter that organizes a Quest.
+</blockquote>
 The days of a peaceable and boring life on the flatland are over. Venturers create Quests and connive fellow citizens to support them.
 Venturers often create light Quests, such as writing a bloody blog post or seducing a merchant to accept $XYM, but the most battle-scarred Venturers sail the stellar winds to flatten mountains, destroy the vile enemy, and fill their decks with loot.
 These elite Venturers reduce invading bugs to ashes and code new life with the embers of fire. The gravestones of their adversaries now a galactic cornerstone in what's become the renown XYMCity.
-</blockquote>
-<b>Accomplice:</b> One that conspires to support the Quest of another.
+</p>
+<p>
+<b>Accomplice:</b>
 <blockquote>
+    One that conspires to support the Quest of another.
+</blockquote>
 As any learned citizen will have you know, there is no better meal for a Starsnake than a lone Venturer. Without accomplices, plunder becomes blunder. Quests fail, and ‘tis a tizzy of a death. 
 So, prepare your propaganda wisely and learn to recognize a good trick. Execute your Quests faithful, lest your plot twists.
-</blockquote>
+</p>
             </p>
             <div className="columns my-6">
             <div className="column is-three-fifths is-offset-one-fifth">
@@ -112,7 +121,7 @@ By using Symbol as the core engine, we are able to rapidly develop and minimize 
                 </div> : <p>
                     XYM is available on many exchanges such as <a href="https://bittrex.com/Market/Index?MarketName=BTC-XYM" target="_blank" rel="noreferrer">Bittrex</a>
                     , <a href="https://www.kucoin.com/trade/XYM-USDT" target="_blank" rel="noreferrer">Kucoin</a>
-                    , and many more as shown on<a href="https://coinmarketcap.com/currencies/symbol/markets/" target="_blank" rel="noreferrer">Coinmarketcap</a>.
+                    , <a href="https://gate.io/trade/xym_usdt">Gate</a>, and many more as shown on <a href="https://coinmarketcap.com/currencies/symbol/markets/" target="_blank" rel="noreferrer">Coinmarketcap</a>.
                 </p> }
             </div>
         </div>
