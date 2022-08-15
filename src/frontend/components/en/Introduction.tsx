@@ -23,6 +23,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
                 <Link to="/dashboard" className="button is-text">or Sign In</Link>
             </div>
         </> : null }
+        <div className="my-6">
             <h3 className="title is-5">How QUEST Works:</h3>
             <p>
             Anyone with a fundraising goal can use QUEST to demonstrate their abilities and attract <s>supporters</s>, accomplices.<br />
@@ -69,6 +70,7 @@ So, prepare your propaganda wisely and learn to recognize a good trick. Execute 
 </blockquote>
             </p>
             </div>
+    </div>
         <div className="my-6">
             <h3 className="title is-5">QUEST uses Symbol block chain</h3>
             <div className="columns">
@@ -107,5 +109,6 @@ So, prepare your propaganda wisely and learn to recognize a good trick. Execute 
                     Complete list is <a href="https://symbolplatform.com/xym" target="_blank" rel="noreferrer">here</a>.
                 </p> }
             </div>
-        </div>;
+        </div>
+    </div>;
 }
