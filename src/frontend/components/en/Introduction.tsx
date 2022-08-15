@@ -40,7 +40,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
             <p>
             Once you have identified your goal and have a plan to achieve it, it’s time to rally the community to support you! With a war chest of $XYM, and the strength of the community behind you, you will overcome all struggles, achieving your mission and accomplishing the Quest! 
             </p>
-        
+        <hr />
             <h3 className="title is-5">How am I protected?</h3>
             <p>
             If accomplices are not satisfied with your progress and commitment, and you fail to accomplish the Quest, the bounty is returned to the would-be accomplices.
